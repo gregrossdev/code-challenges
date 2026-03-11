@@ -4,11 +4,11 @@
 
 | Field | Value |
 |-------|-------|
-| **Version** | `0.1.0` |
+| **Version** | `0.1.4` |
 | **Phase** | 1 — Project Scaffolding & wc Tool |
-| **Status** | `GATHERED` |
-| **Last Batch** | — |
-| **Last Updated** | 2026-03-10 |
+| **Status** | `IMPLEMENTED` |
+| **Last Batch** | GraalVM native image support |
+| **Last Updated** | 2026-03-11 |
 
 ---
 
@@ -18,6 +18,10 @@
 
 | Version | Phase | Batch Title | Type | Status | Timestamp |
 |---------|-------|-------------|------|--------|-----------|
+| 0.1.4 | 1 | GraalVM native image support | UNPLANNED | done | 2026-03-11 |
+| 0.1.3 | 1 | wc challenge article write-up | PLANNED | done | 2026-03-11 |
+| 0.1.2 | 1 | wc tool implementation & tests | PLANNED | done | 2026-03-11 |
+| 0.1.1 | 1 | Gradle monorepo scaffolding & article template | PLANNED | done | 2026-03-11 |
 | 0.0.1 | 0 | Project discovery & scaffold | PLANNED | done | 2026-03-10 |
 
 ---
@@ -27,7 +31,7 @@
 <!-- Decisions that affect current/upcoming work -->
 
 - D-1.1: Gradle multi-module monorepo under `challenges/`
-- D-1.2r: Kotlin 2.3.10, Gradle 9.4.0, JVM 21
+- D-1.2r2: Kotlin 2.1.20, Gradle 9.3.1, JVM 21, GraalVM 24 for native-image
 - D-1.3: JUnit 5 + kotlin-test
 - D-1.4: Raw args for simple CLIs, Clikt for complex
 - D-1.5: First challenge — wc tool
