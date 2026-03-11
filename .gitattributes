@@ -1,0 +1,2 @@
+# Preserve line endings for test fixture files
+**/src/test/resources/** -text
