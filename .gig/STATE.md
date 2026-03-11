@@ -4,10 +4,10 @@
 
 | Field | Value |
 |-------|-------|
-| **Version** | `0.2.5` |
-| **Phase** | 2 — JSON Parser |
+| **Version** | `0.3.6` |
+| **Phase** | 3 — Compression Tool |
 | **Status** | `GOVERNED` |
-| **Last Batch** | JSON parser article write-up |
+| **Last Batch** | Compression tool article write-up |
 | **Last Updated** | 2026-03-11 |
 
 ---
@@ -18,6 +18,12 @@
 
 | Version | Phase | Batch Title | Type | Status | Timestamp |
 |---------|-------|-------------|------|--------|-----------|
+| 0.3.6 | 3 | Compression tool article write-up | PLANNED | done | 2026-03-11 |
+| 0.3.5 | 3 | Native image & manual verification | PLANNED | done | 2026-03-11 |
+| 0.3.4 | 3 | Decoder, CLI & integration tests | PLANNED | done | 2026-03-11 |
+| 0.3.3 | 3 | Code table, bit packing & encoder | PLANNED | done | 2026-03-11 |
+| 0.3.2 | 3 | Frequency counter & Huffman tree | PLANNED | done | 2026-03-11 |
+| 0.3.1 | 3 | Module scaffold, data model & test file | PLANNED | done | 2026-03-11 |
 | 0.2.5 | 2 | JSON parser article write-up | PLANNED | done | 2026-03-11 |
 | 0.2.4 | 2 | CLI, native image & integration tests | PLANNED | done | 2026-03-11 |
 | 0.2.3 | 2 | Parser implementation & tests | PLANNED | done | 2026-03-11 |
