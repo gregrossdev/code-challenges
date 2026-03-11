@@ -21,6 +21,8 @@ dist/
 build/
 out/
 target/
+.gradle/
+buildSrc/build/
 
 # Runtime
 *.sqlite

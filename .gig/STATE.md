@@ -4,10 +4,10 @@
 
 | Field | Value |
 |-------|-------|
-| **Version** | `0.0.1` |
-| **Phase** | 0 — Bootstrap |
-| **Status** | `IDLE` |
-| **Last Batch** | Project discovery & scaffold |
+| **Version** | `0.1.0` |
+| **Phase** | 1 — Project Scaffolding & wc Tool |
+| **Status** | `GATHERED` |
+| **Last Batch** | — |
 | **Last Updated** | 2026-03-10 |
 
 ---
@@ -26,7 +26,13 @@
 
 <!-- Decisions that affect current/upcoming work -->
 
-_None yet._
+- D-1.1: Gradle multi-module monorepo under `challenges/`
+- D-1.2r: Kotlin 2.3.10, Gradle 9.4.0, JVM 21
+- D-1.3: JUnit 5 + kotlin-test
+- D-1.4: Raw args for simple CLIs, Clikt for complex
+- D-1.5: First challenge — wc tool
+- D-1.6: Module naming `challenges/{tool-name}`, package `dev.gregross.challenges.{toolname}`
+- D-1.7: Reusable article template at `templates/article.md`
 
 ---
 
