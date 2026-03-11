@@ -9,7 +9,7 @@ fun main(args: Array<String>) {
     val input = if (files.isNotEmpty()) {
         val file = File(files.first())
         if (!file.exists()) {
-            System.err.println("ccwc: ${files.first()}: No such file or directory")
+            System.err.println("gig-wc: ${files.first()}: No such file or directory")
             return
         }
         file.inputStream()

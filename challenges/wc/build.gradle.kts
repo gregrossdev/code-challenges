@@ -9,3 +9,11 @@ application {
 tasks.named<JavaExec>("run") {
     standardInput = System.`in`
 }
+
+graalvmNative {
+    binaries {
+        named("main") {
+            imageName.set("gig-wc")
+        }
+    }
+}
