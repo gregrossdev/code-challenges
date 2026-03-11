@@ -1,0 +1,9 @@
+The quick brown fox jumps over the lazy dog. This is a simple test file
+for the Huffman compression tool. It contains repeated characters and words
+to ensure the frequency counter works correctly. The compression algorithm
+should produce a smaller output than this original text.
+
+aaaaabbbbbccccdddeef
+
+Testing special cases: numbers 12345, punctuation!?., and UPPERCASE letters.
+Repeated patterns help compression: the the the the the the the the the the.
