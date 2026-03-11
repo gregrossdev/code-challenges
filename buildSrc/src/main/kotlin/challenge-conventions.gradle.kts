@@ -1,6 +1,7 @@
 plugins {
     id("org.jetbrains.kotlin.jvm")
     application
+    id("org.graalvm.buildtools.native")
 }
 
 repositories {
@@ -19,4 +20,16 @@ dependencies {
 
 tasks.test {
     useJUnitPlatform()
+}
+
+graalvmNative {
+    binaries {
+        named("main") {
+            buildArgs.add("-O2")
+            javaLauncher.set(javaToolchains.launcherFor {
+                languageVersion.set(JavaLanguageVersion.of(24))
+                vendor.set(JvmVendorSpec.ORACLE)
+            })
+        }
+    }
 }
