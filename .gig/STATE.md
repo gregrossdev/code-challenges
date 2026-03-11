@@ -4,10 +4,10 @@
 
 | Field | Value |
 |-------|-------|
-| **Version** | `0.1.4` |
-| **Phase** | 1 — Project Scaffolding & wc Tool |
-| **Status** | `GOVERNED` |
-| **Last Batch** | GraalVM native image support |
+| **Version** | `0.2.0` |
+| **Phase** | 2 — JSON Parser |
+| **Status** | `GATHERED` |
+| **Last Batch** | — |
 | **Last Updated** | 2026-03-11 |
 
 ---
@@ -30,7 +30,12 @@
 
 <!-- Decisions that affect current/upcoming work -->
 
-_Archived with phase 1. See `.gig/phases/v0.1-scaffolding-wc/DECISIONS.md`._
+- D-2.1: Two-phase parser — Lexer (tokens) → Parser (value tree)
+- D-2.2: Sealed interface `JsonValue` with typed subtypes
+- D-2.3: `gig-json` CLI — exit codes 0/1, pretty-print, `--validate` flag
+- D-2.4: 3-tier testing — lexer unit, parser unit, integration with challenge + json.org suites
+- D-2.5: `JsonParseException` with line/column/message
+- D-2.6: Article write-up post-implementation
 
 ---
 

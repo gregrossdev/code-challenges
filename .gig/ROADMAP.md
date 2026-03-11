@@ -14,6 +14,7 @@
 | # | Name | Version Range | Status |
 |---|------|---------------|--------|
 | 1 | Project Scaffolding & wc Tool | v0.1.1–v0.1.4 | complete |
+| 2 | JSON Parser | v0.2.x | planned |
 <!-- Phases added by gig:plan, archived by gig:verify -->
 
 ## Completed Milestones
