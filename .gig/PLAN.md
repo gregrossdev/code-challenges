@@ -7,9 +7,7 @@
 
 ## Active Phase
 
-<!-- Populated by gig:plan. Cleared and archived by gig:verify on completion. -->
-
-_No active phase. Run `gig:decide` then `gig:plan` to start._
+_No active phase. Use `/gig:gather` to start the next phase._
 
 ---
 

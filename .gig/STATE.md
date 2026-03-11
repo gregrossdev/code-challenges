@@ -4,10 +4,10 @@
 
 | Field | Value |
 |-------|-------|
-| **Version** | `0.1.4` |
-| **Phase** | 1 — Project Scaffolding & wc Tool |
+| **Version** | `0.2.5` |
+| **Phase** | 2 — JSON Parser |
 | **Status** | `GOVERNED` |
-| **Last Batch** | GraalVM native image support |
+| **Last Batch** | JSON parser article write-up |
 | **Last Updated** | 2026-03-11 |
 
 ---
@@ -18,6 +18,11 @@
 
 | Version | Phase | Batch Title | Type | Status | Timestamp |
 |---------|-------|-------------|------|--------|-----------|
+| 0.2.5 | 2 | JSON parser article write-up | PLANNED | done | 2026-03-11 |
+| 0.2.4 | 2 | CLI, native image & integration tests | PLANNED | done | 2026-03-11 |
+| 0.2.3 | 2 | Parser implementation & tests | PLANNED | done | 2026-03-11 |
+| 0.2.2 | 2 | Lexer implementation & tests | PLANNED | done | 2026-03-11 |
+| 0.2.1 | 2 | Module scaffold, data model & test fixtures | PLANNED | done | 2026-03-11 |
 | 0.1.4 | 1 | GraalVM native image support | UNPLANNED | done | 2026-03-11 |
 | 0.1.3 | 1 | wc challenge article write-up | PLANNED | done | 2026-03-11 |
 | 0.1.2 | 1 | wc tool implementation & tests | PLANNED | done | 2026-03-11 |
@@ -30,7 +35,7 @@
 
 <!-- Decisions that affect current/upcoming work -->
 
-_Archived with phase 1. See `.gig/phases/v0.1-scaffolding-wc/DECISIONS.md`._
+_None — phase archived._
 
 ---
 
