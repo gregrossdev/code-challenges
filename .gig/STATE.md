@@ -4,10 +4,10 @@
 
 | Field | Value |
 |-------|-------|
-| **Version** | `0.2.0` |
+| **Version** | `0.2.5` |
 | **Phase** | 2 — JSON Parser |
-| **Status** | `GATHERED` |
-| **Last Batch** | — |
+| **Status** | `GOVERNED` |
+| **Last Batch** | JSON parser article write-up |
 | **Last Updated** | 2026-03-11 |
 
 ---
@@ -18,6 +18,11 @@
 
 | Version | Phase | Batch Title | Type | Status | Timestamp |
 |---------|-------|-------------|------|--------|-----------|
+| 0.2.5 | 2 | JSON parser article write-up | PLANNED | done | 2026-03-11 |
+| 0.2.4 | 2 | CLI, native image & integration tests | PLANNED | done | 2026-03-11 |
+| 0.2.3 | 2 | Parser implementation & tests | PLANNED | done | 2026-03-11 |
+| 0.2.2 | 2 | Lexer implementation & tests | PLANNED | done | 2026-03-11 |
+| 0.2.1 | 2 | Module scaffold, data model & test fixtures | PLANNED | done | 2026-03-11 |
 | 0.1.4 | 1 | GraalVM native image support | UNPLANNED | done | 2026-03-11 |
 | 0.1.3 | 1 | wc challenge article write-up | PLANNED | done | 2026-03-11 |
 | 0.1.2 | 1 | wc tool implementation & tests | PLANNED | done | 2026-03-11 |
@@ -30,12 +35,7 @@
 
 <!-- Decisions that affect current/upcoming work -->
 
-- D-2.1: Two-phase parser — Lexer (tokens) → Parser (value tree)
-- D-2.2: Sealed interface `JsonValue` with typed subtypes
-- D-2.3: `gig-json` CLI — exit codes 0/1, pretty-print, `--validate` flag
-- D-2.4: 3-tier testing — lexer unit, parser unit, integration with challenge + json.org suites
-- D-2.5: `JsonParseException` with line/column/message
-- D-2.6: Article write-up post-implementation
+_None — phase archived._
 
 ---
 
