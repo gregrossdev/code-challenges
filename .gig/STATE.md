@@ -6,7 +6,7 @@
 |-------|-------|
 | **Version** | `0.1.4` |
 | **Phase** | 1 — Project Scaffolding & wc Tool |
-| **Status** | `IMPLEMENTED` |
+| **Status** | `GOVERNED` |
 | **Last Batch** | GraalVM native image support |
 | **Last Updated** | 2026-03-11 |
 
@@ -30,13 +30,7 @@
 
 <!-- Decisions that affect current/upcoming work -->
 
-- D-1.1: Gradle multi-module monorepo under `challenges/`
-- D-1.2r2: Kotlin 2.1.20, Gradle 9.3.1, JVM 21, GraalVM 24 for native-image
-- D-1.3: JUnit 5 + kotlin-test
-- D-1.4: Raw args for simple CLIs, Clikt for complex
-- D-1.5: First challenge — wc tool
-- D-1.6: Module naming `challenges/{tool-name}`, package `dev.gregross.challenges.{toolname}`
-- D-1.7: Reusable article template at `templates/article.md`
+_Archived with phase 1. See `.gig/phases/v0.1-scaffolding-wc/DECISIONS.md`._
 
 ---
 
