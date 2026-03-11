@@ -4,10 +4,10 @@
 
 | Field | Value |
 |-------|-------|
-| **Version** | `0.3.6` |
-| **Phase** | 3 — Compression Tool |
+| **Version** | `0.4.4` |
+| **Phase** | 4 — Cut Tool |
 | **Status** | `GOVERNED` |
-| **Last Batch** | Compression tool article write-up |
+| **Last Batch** | Cut tool article write-up |
 | **Last Updated** | 2026-03-11 |
 
 ---
@@ -18,6 +18,10 @@
 
 | Version | Phase | Batch Title | Type | Status | Timestamp |
 |---------|-------|-------------|------|--------|-----------|
+| 0.4.4 | 4 | Cut tool article write-up | PLANNED | done | 2026-03-11 |
+| 0.4.3 | 4 | Native image, integration tests & manual verification | PLANNED | done | 2026-03-11 |
+| 0.4.2 | 4 | CutProcessor, CLI & tests | PLANNED | done | 2026-03-11 |
+| 0.4.1 | 4 | Module scaffold & test files | PLANNED | done | 2026-03-11 |
 | 0.3.6 | 3 | Compression tool article write-up | PLANNED | done | 2026-03-11 |
 | 0.3.5 | 3 | Native image & manual verification | PLANNED | done | 2026-03-11 |
 | 0.3.4 | 3 | Decoder, CLI & integration tests | PLANNED | done | 2026-03-11 |
