@@ -28,7 +28,7 @@
 | 13 | Diff Tool | v0.13.1–v0.13.4 | complete |
 | 14 | Shell | v0.14.1–v0.14.6 | complete |
 | 15 | Cat Tool | v0.15.1–v0.15.3 | complete |
-| 16 | IRC Client | v0.16.1–v0.16.6 | planned |
+| 16 | IRC Client | v0.16.1–v0.16.6 | complete |
 <!-- Phases added by gig:plan, archived by gig:verify -->
 
 ## Completed Milestones

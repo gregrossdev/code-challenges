@@ -6,7 +6,7 @@
 |-------|-------|
 | **Version** | `0.16.6` |
 | **Phase** | 16 — IRC Client |
-| **Status** | `IMPLEMENTING` |
+| **Status** | `GOVERNED` |
 | **Last Batch** | 16.6 — IRC client article write-up |
 | **Last Updated** | 2026-03-12 |
 
