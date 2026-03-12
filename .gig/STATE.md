@@ -6,7 +6,7 @@
 |-------|-------|
 | **Version** | `0.5.6` |
 | **Phase** | 6 — Sort Tool |
-| **Status** | `IMPLEMENTING` |
+| **Status** | `GOVERNED` |
 | **Last Batch** | Sort tool article write-up |
 | **Last Updated** | 2026-03-11 |
 
@@ -55,7 +55,7 @@
 
 ## Active Decisions
 
-D-6.1 (Sorter interface architecture), D-6.2 (Four algorithms), D-6.3 (CLI flags), D-6.4 (Post-sort unique), D-6.5 (3-tier testing), D-6.6 (Article write-up)
+_None — phase archived._
 
 ---
 
