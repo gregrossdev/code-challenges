@@ -4,10 +4,10 @@
 
 | Field | Value |
 |-------|-------|
-| **Version** | `0.7.5` |
-| **Phase** | 7 — Calculator |
-| **Status** | `GOVERNED` |
-| **Last Batch** | Calculator article write-up |
+| **Version** | `0.8.7` |
+| **Phase** | 8 — Redis Server |
+| **Status** | `IMPLEMENTING` |
+| **Last Batch** | Redis server article write-up |
 | **Last Updated** | 2026-03-11 |
 
 ---
@@ -18,6 +18,13 @@
 
 | Version | Phase | Batch Title | Type | Status | Timestamp |
 |---------|-------|-------------|------|--------|-----------|
+| 0.8.7 | 8 | Redis server article write-up | PLANNED | done | 2026-03-11 |
+| 0.8.6 | 8 | Native image, integration tests & manual verification | PLANNED | done | 2026-03-11 |
+| 0.8.5 | 8 | Extended commands: EXISTS, DEL, INCR, DECR, LPUSH, RPUSH | PLANNED | done | 2026-03-11 |
+| 0.8.4 | 8 | Key expiry (EX/PX/EXAT/PXAT) | PLANNED | done | 2026-03-11 |
+| 0.8.3 | 8 | TCP server & concurrent clients | PLANNED | done | 2026-03-11 |
+| 0.8.2 | 8 | Data store & PING/ECHO/SET/GET commands | PLANNED | done | 2026-03-11 |
+| 0.8.1 | 8 | Module scaffold & RESP codec | PLANNED | done | 2026-03-11 |
 | 0.7.5 | 7 | Calculator article write-up | PLANNED | done | 2026-03-11 |
 | 0.7.4 | 7 | CLI, native image & integration tests | PLANNED | done | 2026-03-11 |
 | 0.7.3 | 7 | Shunting-yard & evaluator | PLANNED | done | 2026-03-11 |
@@ -60,7 +67,7 @@
 
 ## Active Decisions
 
-_None — phase archived._
+D-8.1 (Four-component architecture), D-8.2 (RESP sealed interface), D-8.3 (11 commands), D-8.4 (ConcurrentHashMap + lazy expiry), D-8.5 (Virtual thread per client), D-8.6 (3-tier testing), D-8.7 (Article write-up)
 
 ---
 
