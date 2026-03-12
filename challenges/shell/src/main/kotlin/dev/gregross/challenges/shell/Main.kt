@@ -3,7 +3,6 @@ package dev.gregross.challenges.shell
 import org.jline.reader.EndOfFileException
 import org.jline.reader.LineReaderBuilder
 import org.jline.reader.UserInterruptException
-import org.jline.reader.impl.history.DefaultHistory
 import org.jline.terminal.TerminalBuilder
 import java.io.File
 
@@ -14,25 +13,15 @@ fun main() {
         .system(true)
         .build()
 
-    val jlineHistory = DefaultHistory()
-
     val lineReader = LineReaderBuilder.builder()
         .terminal(terminal)
-        .history(jlineHistory)
         .variable(org.jline.reader.LineReader.HISTORY_FILE, historyFile.toPath())
         .build()
 
-    // Load existing history
     val shell = Shell()
-    shell.history.load(historyFile)
 
-    // Populate JLine history from our history
-    for (entry in shell.history.entries()) {
-        jlineHistory.add(entry)
-    }
-
+    // Populate shell history from JLine's persisted history (loaded on first readLine)
     Runtime.getRuntime().addShutdownHook(Thread {
-        shell.history.save(historyFile)
         terminal.close()
     })
 
@@ -42,7 +31,6 @@ fun main() {
             val trimmed = line.trim()
             if (trimmed.isEmpty()) continue
             shell.history.add(trimmed)
-            jlineHistory.add(trimmed)
             shell.processInput(trimmed)
         } catch (_: UserInterruptException) {
             // Ctrl+C — print newline, show new prompt
@@ -52,6 +40,4 @@ fun main() {
             break
         }
     }
-
-    shell.history.save(historyFile)
 }
