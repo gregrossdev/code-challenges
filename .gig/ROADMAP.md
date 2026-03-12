@@ -24,6 +24,7 @@
 | 9 | Grep | v0.9.1–v0.9.5 | complete |
 | 10 | Uniq | v0.10.1–v0.10.3 | complete |
 | 11 | Web Server | v0.11.1–v0.11.5 | complete |
+| 12 | URL Shortener | v0.12.1–v0.12.5 | complete |
 <!-- Phases added by gig:plan, archived by gig:verify -->
 
 ## Completed Milestones

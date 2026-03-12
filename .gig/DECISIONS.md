@@ -10,5 +10,3 @@
   AMENDED   — Overridden by user (original preserved, new entry appended)
   REVISED   — Claude revised based on new information (original preserved)
 -->
-
-_No active decisions. Next phase decisions will appear here after `/gig:gather`._
