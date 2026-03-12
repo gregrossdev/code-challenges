@@ -6,7 +6,7 @@
 |-------|-------|
 | **Version** | `0.7.5` |
 | **Phase** | 7 — Calculator |
-| **Status** | `IMPLEMENTING` |
+| **Status** | `GOVERNED` |
 | **Last Batch** | Calculator article write-up |
 | **Last Updated** | 2026-03-11 |
 
@@ -60,7 +60,7 @@
 
 ## Active Decisions
 
-D-7.1 (Three-stage pipeline), D-7.2 (Token sealed interface), D-7.3 (Shunting-yard algorithm), D-7.4 (CLI interface), D-7.5 (Stage-specific errors), D-7.6 (3-tier testing), D-7.7 (Article write-up)
+_None — phase archived._
 
 ---
 
