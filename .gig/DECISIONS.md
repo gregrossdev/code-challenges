@@ -10,13 +10,3 @@
   AMENDED   — Overridden by user (original preserved, new entry appended)
   REVISED   — Claude revised based on new information (original preserved)
 -->
-
-<!-- Entry format:
-## YYYY-MM-DD — Domain: Question
-
-**Decision:** What was decided.
-**Rationale:** Why this choice was made.
-**Alternatives considered:** What else was evaluated.
-**Status:** ACTIVE | ACTIVE | AMENDED | REVISED
-**ID:** D-{batch}.{num}
--->
