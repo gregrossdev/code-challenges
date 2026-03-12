@@ -20,6 +20,7 @@
 | 5 | Load Balancer | v0.5.1–v0.5.6 | complete |
 | 6 | Sort Tool | v0.6.1–v0.6.6 | complete |
 | 7 | Calculator | v0.7.1–v0.7.5 | complete |
+| 8 | Redis Server | v0.8.1–v0.8.7 | complete |
 <!-- Phases added by gig:plan, archived by gig:verify -->
 
 ## Completed Milestones
