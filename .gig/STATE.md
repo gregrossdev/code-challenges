@@ -5,9 +5,9 @@
 | Field | Value |
 |-------|-------|
 | **Version** | `0.15.3` |
-| **Phase** | 15 — Cat Tool |
-| **Status** | `GOVERNED` |
-| **Last Batch** | 15.3 — Cat tool article write-up |
+| **Phase** | 16 — IRC Client |
+| **Status** | `GATHERED` |
+| **Last Batch** | — |
 | **Last Updated** | 2026-03-12 |
 
 ---
@@ -98,7 +98,7 @@
 
 ## Active Decisions
 
-D-15.1 (CatProcessor + Main), D-15.2 (files, stdin, -n, -b, %6d\t format), D-15.3 (2-tier testing), D-15.4 (Article with Usage section)
+D-16.1 (5 components), D-16.2 (NICK/USER/JOIN/PART/PRIVMSG/QUIT/PING-PONG), D-16.3 (virtual thread reader + sync writer), D-16.4 (gig-irc CLI with JLine), D-16.5 (parser + client + mock server tests)
 
 ---
 
