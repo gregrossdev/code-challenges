@@ -10,6 +10,26 @@ Sorting is the most studied problem in computer science. Every developer uses `s
 
 This is challenge #6 on Coding Challenges, and it's the most algorithmic one so far. Instead of I/O parsing or networking, the core work is implementing four distinct sorting algorithms, each with different trade-offs in time complexity, space usage, and stability.
 
+## Usage
+
+```bash
+gig-sort [-u] [--algorithm NAME] [--random-sort] [file]
+```
+
+| Flag | Default | Description |
+|------|---------|-------------|
+| `-u` | — | Output unique lines only |
+| `--algorithm` | `merge` | Algorithm: `merge`, `quick`, `heap`, `radix` |
+| `--random-sort` | — | Shuffle lines randomly |
+
+Reads from stdin if no file given.
+
+```bash
+gig-sort file.txt
+gig-sort -u --algorithm quick file.txt
+cat file.txt | gig-sort --random-sort
+```
+
 ## Approach
 
 An interface-based design with clean separation: a **`Sorter` interface** defines the contract (`fun sort(lines: List<String>): List<String>`), four implementations provide the algorithms, and a **`SortProcessor`** orchestrates the pipeline — read lines, select algorithm, sort, optionally deduplicate, write output. The CLI parses flags and wires everything together.

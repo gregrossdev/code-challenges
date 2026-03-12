@@ -10,6 +10,26 @@ Redis is one of the most widely used infrastructure components in modern systems
 
 This challenge asks you to build a Redis-compatible server that can handle real `redis-cli` connections. It's the most complex challenge yet — combining networking (TCP server), protocol parsing (RESP), concurrent client handling (virtual threads), and data structure management (strings, lists, expiry).
 
+## Usage
+
+```bash
+gig-redis [--port PORT]
+```
+
+| Flag | Default | Description |
+|------|---------|-------------|
+| `--port` | `6379` | Listening port |
+
+Supports PING, ECHO, SET (with EX/PX/EXAT/PXAT), GET, EXISTS, DEL, INCR, DECR, LPUSH, RPUSH.
+
+```bash
+gig-redis
+gig-redis --port 6380
+
+# Test with netcat
+echo -ne '*1\r\n$4\r\nPING\r\n' | nc localhost 6379
+```
+
 ## Approach
 
 Four components with clean separation: a **RESP codec** (parser + serializer) for protocol handling, a **command handler** for dispatching and executing commands, a **data store** for thread-safe in-memory storage, and a **TCP server** that ties it all together with one virtual thread per client connection.

@@ -8,6 +8,28 @@
 
 Uniq is deceptively simple. It reads input, removes adjacent duplicate lines, and writes the result. That's it — until you start thinking about what "adjacent" means, why it matters, and what the flags do. The challenge walks through building uniq step by step: basic deduplication, stdin support, count prefixing (`-c`), repeated-only filtering (`-d`), unique-only filtering (`-u`), and combining flags.
 
+## Usage
+
+```bash
+gig-uniq [-cdui] [input_file [output_file]]
+```
+
+| Flag | Description |
+|------|-------------|
+| `-c` | Prefix lines with occurrence count |
+| `-d` | Show only repeated lines |
+| `-u` | Show only unique lines |
+| `-i` | Case-insensitive comparison |
+
+Reads from stdin if no input file or `-`. Writes to stdout unless output file given.
+
+```bash
+gig-uniq file.txt
+gig-uniq -c file.txt
+gig-uniq -cd file.txt
+sort data.txt | gig-uniq -u
+```
+
 ## Approach
 
 Two components:

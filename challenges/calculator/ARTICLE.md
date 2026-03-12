@@ -10,6 +10,20 @@ Every developer uses a calculator, but few have thought about what happens betwe
 
 This challenge asks you to build a command-line calculator that correctly evaluates expressions like `1 + 2 * 3` (returning `7`, not `9`), handles parentheses, and supports trigonometric functions. The recommended approach: Dijkstra's shunting-yard algorithm.
 
+## Usage
+
+```bash
+gig-calc '<expression>'
+```
+
+Evaluates mathematical expressions with `+`, `-`, `*`, `/`, parentheses, and trig functions (`sin`, `cos`, `tan`). Quote the expression to prevent shell interpretation.
+
+```bash
+gig-calc '2 + 3 * 4'
+gig-calc '(1 + 2) * 3'
+gig-calc 'sin(3.14159 / 2)'
+```
+
 ## Approach
 
 A three-stage pipeline with clean separation between concerns:

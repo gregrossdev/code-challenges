@@ -12,6 +12,22 @@ The challenge walks you through building a complete compression tool: analyze ch
 
 This is challenge #3 on Coding Challenges, and it's a step up from the JSON parser. Instead of text processing, you're working with binary data, bit-level operations, tree data structures, and the greedy algorithm behind Huffman coding.
 
+## Usage
+
+```bash
+gig-compress [-d] <input> -o <output>
+```
+
+| Flag | Description |
+|------|-------------|
+| `-d` | Decompress mode (compress by default) |
+| `-o` | Output file (required) |
+
+```bash
+gig-compress input.txt -o compressed.huff
+gig-compress -d compressed.huff -o recovered.txt
+```
+
 ## Approach
 
 The architecture mirrors how real compression tools work: a pipeline of discrete transformations. Each stage has a single responsibility and can be tested independently. The key insight is that encoding and decoding are mirror images — encoding builds a tree from frequencies and traverses it to generate codes, while decoding rebuilds the same tree from the stored frequency table and walks it to decode bits back to characters.

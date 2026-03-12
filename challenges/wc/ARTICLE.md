@@ -12,6 +12,27 @@ The challenge asks you to build a clone that supports four flags (`-c` for bytes
 
 This is challenge #1 on [Coding Challenges](https://codingchallenges.fyi), and it sets the tone for everything that follows: build real tools, understand what's happening under the hood, and validate against known expected outputs.
 
+## Usage
+
+```bash
+gig-wc [-clwm] [file]
+```
+
+| Flag | Description |
+|------|-------------|
+| `-c` | Print byte count |
+| `-l` | Print line count |
+| `-w` | Print word count |
+| `-m` | Print character count |
+
+No flags defaults to `-l -w -c`. Reads from stdin if no file given.
+
+```bash
+gig-wc file.txt
+gig-wc -l file.txt
+cat file.txt | gig-wc -w
+```
+
 ## Approach
 
 Before writing any code, I set up the project structure — a Gradle multi-module monorepo where each challenge lives as its own subproject under `challenges/`. A shared convention plugin in `buildSrc` handles Kotlin configuration, JVM 21 toolchain, and JUnit 5 test setup so each new challenge module only needs a few lines of build config.

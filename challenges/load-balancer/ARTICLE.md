@@ -12,6 +12,23 @@ This challenge asks you to build one: accept HTTP connections, forward them to b
 
 This is challenge #4 on Coding Challenges, and it's the most complex one I've tackled so far. Instead of processing files, you're managing TCP connections, parsing HTTP on the wire, and coordinating background health checks with request routing.
 
+## Usage
+
+```bash
+gig-lb --backends URL1,URL2[,...] [--port PORT] [--health-interval SECONDS]
+```
+
+| Flag | Default | Description |
+|------|---------|-------------|
+| `--backends` | (required) | Comma-separated backend URLs |
+| `--port` | `8080` | Listening port |
+| `--health-interval` | `10` | Health check interval in seconds |
+
+```bash
+gig-lb --backends http://localhost:3000,http://localhost:3001
+gig-lb --backends http://server1:8080,http://server2:8080 --port 8888
+```
+
 ## Approach
 
 Three components with clean separation: an **HTTP server** that accepts and parses incoming connections, a **load balancer** that routes requests round-robin across healthy backends, and a **health checker** that probes backends in the background and updates their status. All concurrency uses Java 21 virtual threads — one per connection, no thread pools to size, no async callbacks.

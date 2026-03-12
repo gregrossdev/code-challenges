@@ -12,6 +12,24 @@ The challenge progresses through five steps: start with `{}`, add string key-val
 
 This is challenge #2 on Coding Challenges, and it's a significant step up from `wc`. Instead of processing bytes and counting things, you're building a compiler's front end — the same techniques used in programming languages, query engines, and template systems.
 
+## Usage
+
+```bash
+gig-json [--validate] [file]
+```
+
+| Flag | Description |
+|------|-------------|
+| `--validate` | Validate JSON without pretty-printing |
+
+Reads from stdin if no file given. Exit code 0 on valid JSON, 1 on parse error.
+
+```bash
+gig-json data.json
+gig-json --validate data.json
+cat data.json | gig-json
+```
+
 ## Approach
 
 The key architectural decision was a clean two-phase design: a **Lexer** that converts raw input into a stream of typed tokens, and a **Parser** that consumes those tokens and builds a tree of `JsonValue` nodes. This separation is fundamental to compiler design and makes each phase independently testable.

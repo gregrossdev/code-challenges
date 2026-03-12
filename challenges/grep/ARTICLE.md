@@ -10,6 +10,27 @@ Grep is one of the most-used Unix tools. It scans input line by line, prints lin
 
 This challenge walks through building grep incrementally — starting with empty patterns that match everything, then single characters, recursive search, inverted matches, character classes, anchors, and case insensitivity.
 
+## Usage
+
+```bash
+gig-grep [-ivr] PATTERN [FILE...]
+```
+
+| Flag | Description |
+|------|-------------|
+| `-i` | Case-insensitive matching |
+| `-v` | Invert match (show non-matching lines) |
+| `-r` | Recursive directory search |
+
+Reads from stdin if no files given. Exit code 0 on match, 1 on no match.
+
+```bash
+gig-grep 'error' file.log
+gig-grep -i 'warning' *.txt
+gig-grep -r 'TODO' src/
+cat file.txt | gig-grep -v 'debug'
+```
+
 ## Approach
 
 Three components, each with a single responsibility:

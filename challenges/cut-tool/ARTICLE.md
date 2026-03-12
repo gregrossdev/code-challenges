@@ -12,6 +12,25 @@ This challenge asks you to build your own version: parse command-line flags, spl
 
 This is challenge #5 on Coding Challenges, and it's a nice change of pace from the parser and compression tool. No complex data structures, no binary I/O, no algorithms — just clean line-oriented text processing.
 
+## Usage
+
+```bash
+gig-cut -f FIELDS [-d DELIMITER] [file ...]
+```
+
+| Flag | Default | Description |
+|------|---------|-------------|
+| `-f` | (required) | Comma-separated field numbers |
+| `-d` | tab | Field delimiter |
+
+Reads from stdin if no file given or file is `-`.
+
+```bash
+gig-cut -f 1,3 -d, data.csv
+gig-cut -f 2 file.txt
+cat file.txt | gig-cut -f 1 -d:
+```
+
 ## Approach
 
 The core insight: `cut` is fundamentally a line-at-a-time filter. There's no state between lines, no complex data structures, no parsing trees. Each line is independent — split it, pick the fields you want, join them back, print. This simplicity drove the architecture: a single `CutProcessor` class with one method.
