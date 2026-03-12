@@ -13,8 +13,6 @@ _No active phase. Run `/gig:gather` to start the next phase._
 
 ## Plan Amendments
 
-<!-- Log any changes to the plan after creation -->
-
 | Date | Version | Amendment | Reason |
 |------|---------|-----------|--------|
 | — | — | — | — |

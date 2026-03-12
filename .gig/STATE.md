@@ -4,10 +4,10 @@
 
 | Field | Value |
 |-------|-------|
-| **Version** | `0.14.6` |
-| **Phase** | 14 — Shell |
+| **Version** | `0.15.3` |
+| **Phase** | 15 — Cat Tool |
 | **Status** | `GOVERNED` |
-| **Last Batch** | Shell article write-up |
+| **Last Batch** | 15.3 — Cat tool article write-up |
 | **Last Updated** | 2026-03-12 |
 
 ---
@@ -18,6 +18,9 @@
 
 | Version | Phase | Batch Title | Type | Status | Timestamp |
 |---------|-------|-------------|------|--------|-----------|
+| 0.15.3 | 15 | Cat tool article write-up | PLANNED | done | 2026-03-12 |
+| 0.15.2 | 15 | CLI, native image & integration tests | PLANNED | done | 2026-03-12 |
+| 0.15.1 | 15 | Module scaffold, CatProcessor & tests | PLANNED | done | 2026-03-12 |
 | 0.14.6 | 14 | Shell article write-up | PLANNED | done | 2026-03-12 |
 | 0.14.5 | 14 | Native image, integration tests & history fix | PLANNED | done | 2026-03-12 |
 | 0.14.4 | 14 | JLine integration, signal handling & history persistence | PLANNED | done | 2026-03-12 |
@@ -95,7 +98,7 @@
 
 ## Active Decisions
 
-D-14.1 (6-component architecture), D-14.2 (state machine parser for quoting + pipes), D-14.3 (ProcessBuilder with pipe wiring), D-14.4 (exit, cd, pwd, history builtins), D-14.5 (JLine 3 + SIGINT handling), D-14.6 (3-tier testing), D-14.7 (Article with Usage section)
+D-15.1 (CatProcessor + Main), D-15.2 (files, stdin, -n, -b, %6d\t format), D-15.3 (2-tier testing), D-15.4 (Article with Usage section)
 
 ---
 
