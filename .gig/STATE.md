@@ -4,10 +4,10 @@
 
 | Field | Value |
 |-------|-------|
-| **Version** | `0.11.5` |
-| **Phase** | 11 — Web Server |
-| **Status** | `GOVERNED` |
-| **Last Batch** | Web server article write-up |
+| **Version** | `0.12.5` |
+| **Phase** | 12 — URL Shortener |
+| **Status** | `IMPLEMENTING` |
+| **Last Batch** | URL shortener article write-up |
 | **Last Updated** | 2026-03-12 |
 
 ---
@@ -18,6 +18,11 @@
 
 | Version | Phase | Batch Title | Type | Status | Timestamp |
 |---------|-------|-------------|------|--------|-----------|
+| 0.12.5 | 12 | URL shortener article write-up | PLANNED | done | 2026-03-12 |
+| 0.12.4 | 12 | Native image & manual verification | PLANNED | done | 2026-03-12 |
+| 0.12.3 | 12 | WebServer, CLI & integration tests | PLANNED | done | 2026-03-12 |
+| 0.12.2 | 12 | Request body parsing & ApiHandler | PLANNED | done | 2026-03-12 |
+| 0.12.1 | 12 | Module scaffold, CodeGenerator & UrlStore | PLANNED | done | 2026-03-12 |
 | 0.11.5 | 11 | Web server article write-up | PLANNED | done | 2026-03-11 |
 | 0.11.4 | 11 | Native image, integration tests & manual verification | PLANNED | done | 2026-03-11 |
 | 0.11.3 | 11 | WebServer, CLI & concurrency | PLANNED | done | 2026-03-11 |
@@ -80,7 +85,7 @@
 
 ## Active Decisions
 
-D-11.1 (5-component architecture), D-11.2 (HTTP/1.1 GET, Connection: close, 5 status codes), D-11.3 (Canonical path traversal defense), D-11.4 (--port 8080, --docroot ./www), D-11.5 (Extension-based MIME), D-11.6 (3-tier testing), D-11.7 (Article write-up)
+D-12.1 (6-component architecture on Phase 11 infra), D-12.2 (SHA-256 → base62, 8 chars), D-12.3 (POST/GET/DELETE API, 302 redirects), D-12.4 (--port, --base-url), D-12.5 (3-tier testing), D-12.6 (Article with Usage section)
 
 ---
 

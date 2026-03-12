@@ -30,6 +30,12 @@ gig-redis --port 6380
 echo -ne '*1\r\n$4\r\nPING\r\n' | nc localhost 6379
 ```
 
+Stop the server with `Ctrl+C`. If the port is still in use after stopping:
+
+```bash
+lsof -ti:6379 | xargs kill
+```
+
 ## Approach
 
 Four components with clean separation: a **RESP codec** (parser + serializer) for protocol handling, a **command handler** for dispatching and executing commands, a **data store** for thread-safe in-memory storage, and a **TCP server** that ties it all together with one virtual thread per client connection.

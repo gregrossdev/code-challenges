@@ -33,7 +33,11 @@ curl -i http://localhost:8080/
 curl -i http://localhost:8080/index.html
 ```
 
-Stop the server with `Ctrl+C`.
+Stop the server with `Ctrl+C`. If the port is still in use after stopping:
+
+```bash
+lsof -ti:8080 | xargs kill
+```
 
 ## Approach
 

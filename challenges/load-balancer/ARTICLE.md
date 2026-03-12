@@ -29,6 +29,12 @@ gig-lb --backends http://localhost:3000,http://localhost:3001
 gig-lb --backends http://server1:8080,http://server2:8080 --port 8888
 ```
 
+Stop the server with `Ctrl+C`. If the port is still in use after stopping:
+
+```bash
+lsof -ti:8080 | xargs kill
+```
+
 ## Approach
 
 Three components with clean separation: an **HTTP server** that accepts and parses incoming connections, a **load balancer** that routes requests round-robin across healthy backends, and a **health checker** that probes backends in the background and updates their status. All concurrency uses Java 21 virtual threads — one per connection, no thread pools to size, no async callbacks.
