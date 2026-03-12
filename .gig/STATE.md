@@ -4,10 +4,10 @@
 
 | Field | Value |
 |-------|-------|
-| **Version** | `0.12.5` |
-| **Phase** | 12 — URL Shortener |
+| **Version** | `0.13.4` |
+| **Phase** | 13 — Diff Tool |
 | **Status** | `GOVERNED` |
-| **Last Batch** | URL shortener article write-up |
+| **Last Batch** | Diff tool article write-up |
 | **Last Updated** | 2026-03-12 |
 
 ---
@@ -18,6 +18,10 @@
 
 | Version | Phase | Batch Title | Type | Status | Timestamp |
 |---------|-------|-------------|------|--------|-----------|
+| 0.13.4 | 13 | Diff tool article write-up | PLANNED | done | 2026-03-12 |
+| 0.13.3 | 13 | CLI, native image & integration tests | PLANNED | done | 2026-03-12 |
+| 0.13.2 | 13 | DiffGenerator & DiffFormatter | PLANNED | done | 2026-03-12 |
+| 0.13.1 | 13 | Module scaffold & LcsComputer | PLANNED | done | 2026-03-12 |
 | 0.12.5 | 12 | URL shortener article write-up | PLANNED | done | 2026-03-12 |
 | 0.12.4 | 12 | Native image & manual verification | PLANNED | done | 2026-03-12 |
 | 0.12.3 | 12 | WebServer, CLI & integration tests | PLANNED | done | 2026-03-12 |
@@ -85,7 +89,7 @@
 
 ## Active Decisions
 
-D-12.1 (6-component architecture on Phase 11 infra), D-12.2 (SHA-256 → base62, 8 chars), D-12.3 (POST/GET/DELETE API, 302 redirects), D-12.4 (--port, --base-url), D-12.5 (3-tier testing), D-12.6 (Article with Usage section)
+D-13.1 (DP-based LCS → edit script), D-13.2 (4-component architecture), D-13.3 (classic diff format: < / > / ---), D-13.4 (two positional args, exit codes 0/1/2), D-13.5 (3-tier testing with challenge cases), D-13.6 (Article with Usage section)
 
 ---
 
