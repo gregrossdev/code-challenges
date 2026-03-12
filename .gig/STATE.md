@@ -4,11 +4,11 @@
 
 | Field | Value |
 |-------|-------|
-| **Version** | `0.10.3` |
-| **Phase** | 10 — Uniq |
+| **Version** | `0.11.5` |
+| **Phase** | 11 — Web Server |
 | **Status** | `GOVERNED` |
-| **Last Batch** | Uniq article write-up |
-| **Last Updated** | 2026-03-11 |
+| **Last Batch** | Web server article write-up |
+| **Last Updated** | 2026-03-12 |
 
 ---
 
@@ -18,6 +18,11 @@
 
 | Version | Phase | Batch Title | Type | Status | Timestamp |
 |---------|-------|-------------|------|--------|-----------|
+| 0.11.5 | 11 | Web server article write-up | PLANNED | done | 2026-03-11 |
+| 0.11.4 | 11 | Native image, integration tests & manual verification | PLANNED | done | 2026-03-11 |
+| 0.11.3 | 11 | WebServer, CLI & concurrency | PLANNED | done | 2026-03-11 |
+| 0.11.2 | 11 | HttpResponse & StaticFileHandler | PLANNED | done | 2026-03-11 |
+| 0.11.1 | 11 | Module scaffold, HttpRequest & RequestParser | PLANNED | done | 2026-03-11 |
 | 0.10.3 | 10 | Uniq article write-up | PLANNED | done | 2026-03-11 |
 | 0.10.2 | 10 | CLI, native image & integration tests | PLANNED | done | 2026-03-11 |
 | 0.10.1 | 10 | Module scaffold & UniqProcessor | PLANNED | done | 2026-03-11 |
@@ -75,7 +80,7 @@
 
 ## Active Decisions
 
-D-10.1 (UniqProcessor + Main.kt), D-10.2 (Flags: -c, -d, -u, -i + output file), D-10.3 (Streaming adjacent-line grouping), D-10.4 (GNU %7d count format), D-10.5 (2-tier testing), D-10.6 (Article write-up)
+D-11.1 (5-component architecture), D-11.2 (HTTP/1.1 GET, Connection: close, 5 status codes), D-11.3 (Canonical path traversal defense), D-11.4 (--port 8080, --docroot ./www), D-11.5 (Extension-based MIME), D-11.6 (3-tier testing), D-11.7 (Article write-up)
 
 ---
 
