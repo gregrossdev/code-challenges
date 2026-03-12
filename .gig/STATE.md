@@ -6,7 +6,7 @@
 |-------|-------|
 | **Version** | `0.8.7` |
 | **Phase** | 8 — Redis Server |
-| **Status** | `IMPLEMENTING` |
+| **Status** | `GOVERNED` |
 | **Last Batch** | Redis server article write-up |
 | **Last Updated** | 2026-03-11 |
 
@@ -67,7 +67,7 @@
 
 ## Active Decisions
 
-D-8.1 (Four-component architecture), D-8.2 (RESP sealed interface), D-8.3 (11 commands), D-8.4 (ConcurrentHashMap + lazy expiry), D-8.5 (Virtual thread per client), D-8.6 (3-tier testing), D-8.7 (Article write-up)
+_None — phase archived._
 
 ---
 
