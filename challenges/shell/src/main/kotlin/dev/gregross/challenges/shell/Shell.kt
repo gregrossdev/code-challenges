@@ -10,6 +10,7 @@ class Shell(
     private val error: PrintStream = System.err,
 ) {
     val parser = InputParser()
+    val executor = Executor()
     var workingDir: File = File(System.getProperty("user.dir"))
     @Volatile var running = true
 
@@ -27,7 +28,6 @@ class Shell(
     fun processInput(input: String) {
         val pipeline = parser.parsePipeline(input)
         if (pipeline.isEmpty()) return
-        // Placeholder — will be wired to executor and builtins in later batches
-        error.println("gig-sh: command execution not yet implemented")
+        executor.execute(pipeline, workingDir)
     }
 }
