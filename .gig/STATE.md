@@ -4,10 +4,10 @@
 
 | Field | Value |
 |-------|-------|
-| **Version** | `0.4.4` |
-| **Phase** | 4 — Cut Tool |
+| **Version** | `0.5.6` |
+| **Phase** | 5 — Load Balancer |
 | **Status** | `GOVERNED` |
-| **Last Batch** | Cut tool article write-up |
+| **Last Batch** | Load balancer article write-up |
 | **Last Updated** | 2026-03-11 |
 
 ---
@@ -18,6 +18,12 @@
 
 | Version | Phase | Batch Title | Type | Status | Timestamp |
 |---------|-------|-------------|------|--------|-----------|
+| 0.5.6 | 5 | Load balancer article write-up | PLANNED | done | 2026-03-11 |
+| 0.5.5 | 5 | CLI, native image & integration tests | PLANNED | done | 2026-03-11 |
+| 0.5.4 | 5 | Health checker & automatic failover | PLANNED | done | 2026-03-11 |
+| 0.5.3 | 5 | Round-robin & multi-backend support | PLANNED | done | 2026-03-11 |
+| 0.5.2 | 5 | Load balancer core & single-backend forwarding | PLANNED | done | 2026-03-11 |
+| 0.5.1 | 5 | Module scaffold & HTTP parsing | PLANNED | done | 2026-03-11 |
 | 0.4.4 | 4 | Cut tool article write-up | PLANNED | done | 2026-03-11 |
 | 0.4.3 | 4 | Native image, integration tests & manual verification | PLANNED | done | 2026-03-11 |
 | 0.4.2 | 4 | CutProcessor, CLI & tests | PLANNED | done | 2026-03-11 |
@@ -43,15 +49,11 @@
 
 ## Active Decisions
 
-<!-- Decisions that affect current/upcoming work -->
-
 _None — phase archived._
 
 ---
 
 ## Open Flags
-
-<!-- Items that need human attention -->
 
 _None._
 
@@ -59,14 +61,9 @@ _None._
 
 ## Working Memory
 
-<!-- Key context: file paths, patterns, naming conventions, gotchas.
-     Updated during plan and apply. Keep under 100 lines. -->
-
 ---
 
 ## Open Issues
-
-<!-- Summary of deferred issues from ISSUES.md -->
 
 _None._
 

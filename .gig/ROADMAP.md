@@ -17,6 +17,7 @@
 | 2 | JSON Parser | v0.2.1–v0.2.5 | complete |
 | 3 | Compression Tool | v0.3.1–v0.3.6 | complete |
 | 4 | Cut Tool | v0.4.1–v0.4.4 | complete |
+| 5 | Load Balancer | v0.5.1–v0.5.6 | complete |
 <!-- Phases added by gig:plan, archived by gig:verify -->
 
 ## Completed Milestones
