@@ -4,10 +4,10 @@
 
 | Field | Value |
 |-------|-------|
-| **Version** | `0.8.7` |
-| **Phase** | 8 — Redis Server |
-| **Status** | `GOVERNED` |
-| **Last Batch** | Redis server article write-up |
+| **Version** | `0.9.5` |
+| **Phase** | 9 — Grep |
+| **Status** | `IMPLEMENTING` |
+| **Last Batch** | Grep article write-up |
 | **Last Updated** | 2026-03-11 |
 
 ---
@@ -18,6 +18,11 @@
 
 | Version | Phase | Batch Title | Type | Status | Timestamp |
 |---------|-------|-------------|------|--------|-----------|
+| 0.9.5 | 9 | Grep article write-up | PLANNED | done | 2026-03-11 |
+| 0.9.4 | 9 | CLI, native image & integration tests | PLANNED | done | 2026-03-11 |
+| 0.9.3 | 9 | Recursive search & multi-file output | PLANNED | done | 2026-03-11 |
+| 0.9.2 | 9 | GrepProcessor & single-file search | PLANNED | done | 2026-03-11 |
+| 0.9.1 | 9 | Module scaffold & Matcher | PLANNED | done | 2026-03-11 |
 | 0.8.7 | 8 | Redis server article write-up | PLANNED | done | 2026-03-11 |
 | 0.8.6 | 8 | Native image, integration tests & manual verification | PLANNED | done | 2026-03-11 |
 | 0.8.5 | 8 | Extended commands: EXISTS, DEL, INCR, DECR, LPUSH, RPUSH | PLANNED | done | 2026-03-11 |
@@ -67,7 +72,7 @@
 
 ## Active Decisions
 
-_None — phase archived._
+D-9.1 (Matcher + FileSearcher + GrepProcessor), D-9.2 (Three flags + exit codes), D-9.3 (JVM Regex), D-9.4 (File/stdin/recursive input), D-9.5 (3-tier testing), D-9.6 (Article write-up)
 
 ---
 

@@ -7,7 +7,7 @@
 
 ## Active Phase
 
-_No active phase. Use `/gig:gather` to start the next phase._
+_No active phase. Run `/gig:gather` to start the next phase._
 
 ---
 
