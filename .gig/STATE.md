@@ -4,10 +4,10 @@
 
 | Field | Value |
 |-------|-------|
-| **Version** | `0.5.6` |
-| **Phase** | 6 — Sort Tool |
+| **Version** | `0.7.5` |
+| **Phase** | 7 — Calculator |
 | **Status** | `GOVERNED` |
-| **Last Batch** | Sort tool article write-up |
+| **Last Batch** | Calculator article write-up |
 | **Last Updated** | 2026-03-11 |
 
 ---
@@ -18,6 +18,11 @@
 
 | Version | Phase | Batch Title | Type | Status | Timestamp |
 |---------|-------|-------------|------|--------|-----------|
+| 0.7.5 | 7 | Calculator article write-up | PLANNED | done | 2026-03-11 |
+| 0.7.4 | 7 | CLI, native image & integration tests | PLANNED | done | 2026-03-11 |
+| 0.7.3 | 7 | Shunting-yard & evaluator | PLANNED | done | 2026-03-11 |
+| 0.7.2 | 7 | Tokenizer | PLANNED | done | 2026-03-11 |
+| 0.7.1 | 7 | Module scaffold & Token model | PLANNED | done | 2026-03-11 |
 | 0.6.6 | 6 | Sort tool article write-up | PLANNED | done | 2026-03-11 |
 | 0.6.5 | 6 | Native image, integration tests & test data | PLANNED | done | 2026-03-11 |
 | 0.6.4 | 6 | SortProcessor, unique filtering & CLI | PLANNED | done | 2026-03-11 |
