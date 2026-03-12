@@ -4,10 +4,10 @@
 
 | Field | Value |
 |-------|-------|
-| **Version** | `0.9.5` |
-| **Phase** | 9 — Grep |
+| **Version** | `0.10.3` |
+| **Phase** | 10 — Uniq |
 | **Status** | `GOVERNED` |
-| **Last Batch** | Grep article write-up |
+| **Last Batch** | Uniq article write-up |
 | **Last Updated** | 2026-03-11 |
 
 ---
@@ -18,6 +18,9 @@
 
 | Version | Phase | Batch Title | Type | Status | Timestamp |
 |---------|-------|-------------|------|--------|-----------|
+| 0.10.3 | 10 | Uniq article write-up | PLANNED | done | 2026-03-11 |
+| 0.10.2 | 10 | CLI, native image & integration tests | PLANNED | done | 2026-03-11 |
+| 0.10.1 | 10 | Module scaffold & UniqProcessor | PLANNED | done | 2026-03-11 |
 | 0.9.5 | 9 | Grep article write-up | PLANNED | done | 2026-03-11 |
 | 0.9.4 | 9 | CLI, native image & integration tests | PLANNED | done | 2026-03-11 |
 | 0.9.3 | 9 | Recursive search & multi-file output | PLANNED | done | 2026-03-11 |
@@ -72,7 +75,7 @@
 
 ## Active Decisions
 
-D-9.1 (Matcher + FileSearcher + GrepProcessor), D-9.2 (Three flags + exit codes), D-9.3 (JVM Regex), D-9.4 (File/stdin/recursive input), D-9.5 (3-tier testing), D-9.6 (Article write-up)
+D-10.1 (UniqProcessor + Main.kt), D-10.2 (Flags: -c, -d, -u, -i + output file), D-10.3 (Streaming adjacent-line grouping), D-10.4 (GNU %7d count format), D-10.5 (2-tier testing), D-10.6 (Article write-up)
 
 ---
 
