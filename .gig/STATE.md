@@ -6,7 +6,7 @@
 |-------|-------|
 | **Version** | `0.12.5` |
 | **Phase** | 12 — URL Shortener |
-| **Status** | `IMPLEMENTING` |
+| **Status** | `GOVERNED` |
 | **Last Batch** | URL shortener article write-up |
 | **Last Updated** | 2026-03-12 |
 
