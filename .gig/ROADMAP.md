@@ -21,6 +21,7 @@
 | 6 | Sort Tool | v0.6.1–v0.6.6 | complete |
 | 7 | Calculator | v0.7.1–v0.7.5 | complete |
 | 8 | Redis Server | v0.8.1–v0.8.7 | complete |
+| 9 | Grep | v0.9.1–v0.9.5 | complete |
 <!-- Phases added by gig:plan, archived by gig:verify -->
 
 ## Completed Milestones

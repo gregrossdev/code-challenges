@@ -6,7 +6,7 @@
 |-------|-------|
 | **Version** | `0.9.5` |
 | **Phase** | 9 — Grep |
-| **Status** | `IMPLEMENTING` |
+| **Status** | `GOVERNED` |
 | **Last Batch** | Grep article write-up |
 | **Last Updated** | 2026-03-11 |
 
