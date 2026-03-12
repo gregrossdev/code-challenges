@@ -6,7 +6,7 @@
 |-------|-------|
 | **Version** | `0.15.3` |
 | **Phase** | 15 — Cat Tool |
-| **Status** | `IMPLEMENTING` |
+| **Status** | `GOVERNED` |
 | **Last Batch** | 15.3 — Cat tool article write-up |
 | **Last Updated** | 2026-03-12 |
 
