@@ -4,10 +4,10 @@
 
 | Field | Value |
 |-------|-------|
-| **Version** | `0.13.4` |
-| **Phase** | 13 — Diff Tool |
+| **Version** | `0.14.6` |
+| **Phase** | 14 — Shell |
 | **Status** | `GOVERNED` |
-| **Last Batch** | Diff tool article write-up |
+| **Last Batch** | Shell article write-up |
 | **Last Updated** | 2026-03-12 |
 
 ---
@@ -18,6 +18,12 @@
 
 | Version | Phase | Batch Title | Type | Status | Timestamp |
 |---------|-------|-------------|------|--------|-----------|
+| 0.14.6 | 14 | Shell article write-up | PLANNED | done | 2026-03-12 |
+| 0.14.5 | 14 | Native image, integration tests & history fix | PLANNED | done | 2026-03-12 |
+| 0.14.4 | 14 | JLine integration, signal handling & history persistence | PLANNED | done | 2026-03-12 |
+| 0.14.3 | 14 | Built-in commands (exit, cd, pwd, history) | PLANNED | done | 2026-03-12 |
+| 0.14.2 | 14 | Executor & pipe wiring | PLANNED | done | 2026-03-12 |
+| 0.14.1 | 14 | Module scaffold, InputParser & basic REPL | PLANNED | done | 2026-03-12 |
 | 0.13.4 | 13 | Diff tool article write-up | PLANNED | done | 2026-03-12 |
 | 0.13.3 | 13 | CLI, native image & integration tests | PLANNED | done | 2026-03-12 |
 | 0.13.2 | 13 | DiffGenerator & DiffFormatter | PLANNED | done | 2026-03-12 |
@@ -89,7 +95,7 @@
 
 ## Active Decisions
 
-D-13.1 (DP-based LCS → edit script), D-13.2 (4-component architecture), D-13.3 (classic diff format: < / > / ---), D-13.4 (two positional args, exit codes 0/1/2), D-13.5 (3-tier testing with challenge cases), D-13.6 (Article with Usage section)
+D-14.1 (6-component architecture), D-14.2 (state machine parser for quoting + pipes), D-14.3 (ProcessBuilder with pipe wiring), D-14.4 (exit, cd, pwd, history builtins), D-14.5 (JLine 3 + SIGINT handling), D-14.6 (3-tier testing), D-14.7 (Article with Usage section)
 
 ---
 

@@ -21,13 +21,3 @@
 **Evidence:** Error output, failing test, mismatched behavior.
 **Batch:** — (assigned when fix starts)
 -->
-
-## ISS-1: JLine native access warnings on JDK 24
-
-**Severity:** Cosmetic
-**Source:** UAT
-**Phase:** 14
-**Status:** DEFERRED
-**Description:** JLine 3.28.0 triggers JDK 24 restricted method warnings on startup (`WARNING: A restricted method in java.lang.System has been called`). Shell functions correctly — purely cosmetic.
-**Evidence:** Warnings printed to stderr on every `gig-sh` launch.
-**Batch:** —
