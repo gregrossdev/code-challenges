@@ -1,0 +1,9 @@
+hello world
+goodbye world
+Hello World
+this has 123 numbers
+no digits here
+start of line
+end of the line
+UPPERCASE LINE
+mixed Case Line
