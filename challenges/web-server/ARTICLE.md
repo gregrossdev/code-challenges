@@ -10,6 +10,31 @@ Every web developer uses HTTP daily, but few have implemented the protocol from 
 
 The goal isn't to build a production web server — it's to understand what happens between a browser sending a request and receiving a response.
 
+## Usage
+
+```bash
+gig-httpd [--port PORT] [--docroot PATH]
+```
+
+| Flag | Default | Description |
+|------|---------|-------------|
+| `--port` | `8080` | Port to listen on |
+| `--docroot` | `./www` | Directory to serve files from |
+
+```bash
+# Serve the ./www directory on port 8080
+gig-httpd --docroot www
+
+# Custom port
+gig-httpd --port 3000 --docroot /var/www/html
+
+# Test with curl
+curl -i http://localhost:8080/
+curl -i http://localhost:8080/index.html
+```
+
+Stop the server with `Ctrl+C`.
+
 ## Approach
 
 Five components, each handling one concern:
