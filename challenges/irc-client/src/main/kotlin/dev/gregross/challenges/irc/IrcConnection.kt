@@ -5,7 +5,7 @@ import java.io.InputStreamReader
 import java.io.PrintWriter
 import java.net.Socket
 
-class IrcConnection(
+open class IrcConnection(
     private val host: String,
     private val port: Int,
 ) {
@@ -53,7 +53,7 @@ class IrcConnection(
     }
 
     @Synchronized
-    fun send(message: String) {
+    open fun send(message: String) {
         writer?.print(message)
         writer?.flush()
     }
