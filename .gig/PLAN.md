@@ -15,12 +15,12 @@
 
 | Batch | Version | Title | Delegation | Status |
 |-------|---------|-------|------------|--------|
-| 16.1 | `0.16.1` | Module scaffold, IrcMessage & IrcParser | in-session | pending |
-| 16.2 | `0.16.2` | IrcConnection — TCP socket with reader/writer threads | in-session | pending |
-| 16.3 | `0.16.3` | IrcClient — command dispatch, display & channel tracking | in-session | pending |
-| 16.4 | `0.16.4` | CLI, JLine terminal & native image | in-session | pending |
-| 16.5 | `0.16.5` | Integration tests with mock IRC server | in-session | pending |
-| 16.6 | `0.16.6` | IRC client article write-up | in-session | pending |
+| 16.1 | `0.16.1` | Module scaffold, IrcMessage & IrcParser | in-session | done |
+| 16.2 | `0.16.2` | IrcConnection — TCP socket with reader/writer threads | in-session | done |
+| 16.3 | `0.16.3` | IrcClient — command dispatch, display & channel tracking | in-session | done |
+| 16.4 | `0.16.4` | CLI, JLine terminal & native image | in-session | done |
+| 16.5 | `0.16.5` | Integration tests with mock IRC server | in-session | done |
+| 16.6 | `0.16.6` | IRC client article write-up | in-session | done |
 
 ### Batch 16.1 — Module scaffold, IrcMessage & IrcParser
 
