@@ -4,10 +4,10 @@
 
 | Field | Value |
 |-------|-------|
-| **Version** | `0.15.3` |
-| **Phase** | 15 — Cat Tool |
+| **Version** | `0.16.6` |
+| **Phase** | 16 — IRC Client |
 | **Status** | `GOVERNED` |
-| **Last Batch** | 15.3 — Cat tool article write-up |
+| **Last Batch** | 16.6 — IRC client article write-up |
 | **Last Updated** | 2026-03-12 |
 
 ---
@@ -18,6 +18,12 @@
 
 | Version | Phase | Batch Title | Type | Status | Timestamp |
 |---------|-------|-------------|------|--------|-----------|
+| 0.16.6 | 16 | IRC client article write-up | PLANNED | done | 2026-03-12 |
+| 0.16.5 | 16 | Integration tests with mock IRC server | PLANNED | done | 2026-03-12 |
+| 0.16.4 | 16 | CLI, JLine terminal & native image | PLANNED | done | 2026-03-12 |
+| 0.16.3 | 16 | IrcClient — command dispatch, display & channel tracking | PLANNED | done | 2026-03-12 |
+| 0.16.2 | 16 | IrcConnection — TCP with reader/writer threads | PLANNED | done | 2026-03-12 |
+| 0.16.1 | 16 | Module scaffold, IrcMessage & IrcParser | PLANNED | done | 2026-03-12 |
 | 0.15.3 | 15 | Cat tool article write-up | PLANNED | done | 2026-03-12 |
 | 0.15.2 | 15 | CLI, native image & integration tests | PLANNED | done | 2026-03-12 |
 | 0.15.1 | 15 | Module scaffold, CatProcessor & tests | PLANNED | done | 2026-03-12 |
@@ -98,7 +104,7 @@
 
 ## Active Decisions
 
-D-15.1 (CatProcessor + Main), D-15.2 (files, stdin, -n, -b, %6d\t format), D-15.3 (2-tier testing), D-15.4 (Article with Usage section)
+D-16.1 (5 components), D-16.2 (NICK/USER/JOIN/PART/PRIVMSG/QUIT/PING-PONG), D-16.3 (virtual thread reader + sync writer), D-16.4 (gig-irc CLI with JLine), D-16.5 (parser + client + mock server tests)
 
 ---
 
