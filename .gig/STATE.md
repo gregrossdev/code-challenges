@@ -5,9 +5,9 @@
 | Field | Value |
 |-------|-------|
 | **Version** | `0.5.6` |
-| **Phase** | 5 — Load Balancer |
-| **Status** | `GOVERNED` |
-| **Last Batch** | Load balancer article write-up |
+| **Phase** | 6 — Sort Tool |
+| **Status** | `IMPLEMENTING` |
+| **Last Batch** | Sort tool article write-up |
 | **Last Updated** | 2026-03-11 |
 
 ---
@@ -18,6 +18,12 @@
 
 | Version | Phase | Batch Title | Type | Status | Timestamp |
 |---------|-------|-------------|------|--------|-----------|
+| 0.6.6 | 6 | Sort tool article write-up | PLANNED | done | 2026-03-11 |
+| 0.6.5 | 6 | Native image, integration tests & test data | PLANNED | done | 2026-03-11 |
+| 0.6.4 | 6 | SortProcessor, unique filtering & CLI | PLANNED | done | 2026-03-11 |
+| 0.6.3 | 6 | Heap sort & radix sort | PLANNED | done | 2026-03-11 |
+| 0.6.2 | 6 | Merge sort & quick sort | PLANNED | done | 2026-03-11 |
+| 0.6.1 | 6 | Module scaffold & Sorter interface | PLANNED | done | 2026-03-11 |
 | 0.5.6 | 5 | Load balancer article write-up | PLANNED | done | 2026-03-11 |
 | 0.5.5 | 5 | CLI, native image & integration tests | PLANNED | done | 2026-03-11 |
 | 0.5.4 | 5 | Health checker & automatic failover | PLANNED | done | 2026-03-11 |
@@ -49,7 +55,7 @@
 
 ## Active Decisions
 
-_None — phase archived._
+D-6.1 (Sorter interface architecture), D-6.2 (Four algorithms), D-6.3 (CLI flags), D-6.4 (Post-sort unique), D-6.5 (3-tier testing), D-6.6 (Article write-up)
 
 ---
 
